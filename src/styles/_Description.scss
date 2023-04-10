@@ -1,0 +1,25 @@
+.description {
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  justify-items: flex-start;
+  gap: 1.5rem;
+  flex-direction: column;
+  color: aliceblue;
+
+  &__title {
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    gap: 20px 0;
+    color: $color-paragraph;
+    padding: 4rem 0;
+  }
+}

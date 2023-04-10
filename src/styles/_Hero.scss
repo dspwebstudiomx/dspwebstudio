@@ -1,0 +1,62 @@
+.hero {
+  background-color: #0b0329;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fafafa;
+  width: 100%;
+  text-align: center;
+  background-image: url("./assets/bgHero.jpg");
+  padding: 4rem;
+  margin-top: 60px;
+  @media screen and (min-width: 576px) {
+    height: 60vh;
+    padding: 0rem 0;
+    min-height: 50vh;
+    margin-top: 100px;
+  }
+  @media screen and (min-width: 768px) {
+    height: 60vh;
+    margin-top: 100px;
+    min-height: 70vh;
+  }
+  &__container {
+    text-align: center;
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+  &__title {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    @media screen and (min-width: 576px) {
+      font-size: 3.5rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+  &__paragraph {
+    margin: 4rem 0;
+    @media screen and (min-width: 576px) {
+      font-size: 1.4rem;
+      padding: 0 42rem;
+    }
+    @media screen and (min-width: 768px) {
+      font-size: 1.4rem;
+      padding: 0 11rem;
+    }
+  }
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 240px;
+    height: 120px;
+    @media screen and (min-width: 576px) {
+      width: auto;
+      height: auto;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

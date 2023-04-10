@@ -1,0 +1,17 @@
+.returnButton {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 80px;
+  right: 0;
+  width: 75px;
+  height: 75px;
+  background-color: $color-blue;
+  border-radius: 15px 0 0 15px;
+  border: 2px solid $color-dark;
+  &__link {
+    color: #fafafa;
+    text-decoration: none;
+  }
+}

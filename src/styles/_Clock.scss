@@ -1,0 +1,10 @@
+@import "Colors";
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: $color-dark;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 0.025rem;
+}

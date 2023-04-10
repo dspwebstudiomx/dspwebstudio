@@ -1,0 +1,33 @@
+.btn {
+  padding: 10px 15px;
+  border-radius: 10px;
+  min-width: auto;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  &:hover {
+    filter: brightness(90%);
+  }
+
+  &--danger {
+    background-color: rgb(202, 39, 39);
+    border: 1px solid $color-dark;
+    color: $color-light;
+  }
+
+  &--blue {
+    background-color: $color-blue;
+    color: $color-light;
+  }
+
+  &--yellow {
+    background-color: $color-yellow;
+    color: $color-dark;
+    border: 1px solid $color-dark;
+  }
+
+  &--green {
+    background-color: $color-green;
+    color: $color-light;
+  }
+}
